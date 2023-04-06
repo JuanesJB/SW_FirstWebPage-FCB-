@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Billion+Dreams" rel="stylesheet">
+
+
+  <title>Mi página web del FC Barcelona</title>
+
+  <!-- Agregar la hoja de estilos de Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <!-- Agregar estilos personalizados -->
+  <link rel="stylesheet" href="estilos.css">
+  <style>
+    hr {
+  border-bottom: 1px solid #fdc53c;
+  opacity: 0.5;
+    }
+    body {
+      background-color: #181733;
+    }
+    h1 {
+  font-family: 'Billion Dreams', cursive;
+}
+.img-fluid {
+  border: 1px solid #ffff;
+  border-radius: 1px;
+  padding: 1px;
+}
+html {
+    scroll-behavior: smooth;
+  }
+
+
+</style>
+
+</head>
+<body>
+
+
+<!-- Barra de navegación -->
+<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #0a0927;">
+  <a class="navbar-brand" href="#" style="color: #fdc52c; font-weight: bold; font-size: 24px;">Futbol Club Barcelona<img src="FC_Barcelona_(crest).svg.png" alt="Escudo del FC Barcelona" style="height: 30px; margin-left: 10px;"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Inicio</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="plantilla.html">Plantilla</a>
+      </li>
+      <li class="nav-item ">
+        <a class="nav-link" href="noticias.html">Noticias</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://github.com/JuanesJB">Contacto</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+
+  <!-- Encabezado -->
+  <header class="jumbotron jumbotron-fluid" style="background-image: url('d84salt-6a22ffc1-0637-4037-b864-46efa0551a44.png'); background-size: cover; background-position: center; opacity: 1.0; color: white;">
+    <div class="container" style="text-align: left; margin-left: 50px;">
+      <h1 class="display-4">¡Visca Barça!</h1>
+
+      <p class="lead">Bienvenidos a mi página web dedicada al Futbol Club Barcelona</p>
+      <img src="FC_Barcelona_(crest).svg.png" alt="Escudo del Futbol Club Barcelona" width="100" style="float: right;">
+    </div>
+  </header>
+
+
+
+
+  <!-- Contenido principal -->
+  <main class="container my-5">
+    <div class="row">
+      <div class="col-md-6">
+        <h2 class="text-center mb-4">Historia del FC Barcelona</h2>
+        <p>El Futbol Club Barcelona, también conocido como Barça, es un club de fútbol profesional con sede en Barcelona, ​​Cataluña, España. Fundado en 1899 por un grupo de futbolistas suizos, ingleses y españoles, se ha convertido en uno de los clubes más exitosos del mundo. El equipo ha ganado 26 títulos de La Liga, 31 Copas del Rey, 5 Ligas de Campeones de la UEFA, 4 Recopas de Europa y 3 Supercopas de la UEFA, entre otroslogros.</p>
+        <p>Además de su éxito en el campo de juego, el FC Barcelona es conocido por su compromiso con los valores sociales y culturales. El club es propiedad y está controlado por sus socios, lo que significa que los aficionados tienen una voz en las decisiones del club. También ha sido un defensor de la cultura catalana y ha trabajado para promover la inclusión y la diversidad en el fútbol.</p>
+        <p>Si quieres saber más sobre la historia del FC Barcelona, ​​visita su sitio web oficial <a href="https://www.fcbarcelona.es/">aquí</a>.</p>
+        </div>
+        <div class="col-md-6">
+        <img src="more-than-a-club-961829_960_720" alt="Imagen del estadio Camp Nou" class="img-fluid rounded">
+        </div>
+        </div>
+        <hr>
+
+        <div class="row">
+          <div class="col-md-6">
+            <h2 class="text-center mb-4">Plantilla del FC Barcelona</h2>
+            <ul>
+              <li>Robert Lewandowski</li>
+              <li>Marc-André ter Stegen</li>
+              <li>Ronald Araújo</li>
+              <li>Sergio Busquets</li>
+              <li>Jordi Alba</li>
+              <li>Gavi</li>
+            </ul>
+            <p>Para ver la lista completa de jugadores del FC Barcelona, ​​visita su sitio web oficial <a href="https://www.fcbarcelona.es/es/futbol/primer-equipo/jugadores">aquí</a>.</p>
+          </div>
+          <div class="col-md-6">
+            <img src="3200x2000-dorsals-1r_equip-cat.jpg" alt="Imagen del equipo del FC Barcelona" class="img-fluid rounded">
+          </div>
+        </div>
+
+        <hr>
+        <div class="row">
+          <div class="col-md-6">
+            <h2 class="text-center mb-4">Suscríbete para recibir noticias del Barça</h2>
+            <form>
+              <div class="form-group">
+                <label for="nombre">Nombre completo</label>
+                <input type="text" class="form-control" id="nombre" placeholder="Ingresa tu nombre">
+              </div>
+              <div class="form-group">
+                <label for="email">Correo electrónico</label>
+                <input type="email" class="form-control" id="email" placeholder="Ingresa tu correo electrónico">
+              </div>
+              <button type="submit" class="btn btn-primary">Suscribirse</button>
+            </form>
+          </div>
+          <div class="col-md-6">
+            <img src="16471777767346.jpg" class="img-fluid" alt="Imagen de ejemplo">
+          </div>
+        </div>
+
+      </main>
+      <footer class="bg-dark text-white py-3" style="background-color: #0a0927;">
+        <div class="container text-center">
+          <p>Copyright © 2023, Todos los derechos reservados.</p>
+        </div>
+      </footer>
+
+      <!-- Agregar los scripts de Bootstrap -->
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<body>
